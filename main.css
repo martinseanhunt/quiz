@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+	text-align: center;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.container{
+	max-width: 960px;
+	padding: 50px;
+	margin: 0 auto;
+}
+
+header{
+	border: 1px solid grey;
+	margin-bottom: 30px;
+}
+
+main{
+	border: 1px solid grey;
+	padding: 50px 20px 70px 20px;
+	margin-bottom: 30px;
+}
+
+button{
+	padding: 10px 20px;
+	margin-top: 20px;
+}
+
+footer{
+	border: 1px solid grey;
+	padding: 20px 50px;
+}
+
+footer .progress, footer .score{
+	/* WHY DOESN'T THIS WORK AT 50% */
+	display: inline-block;
+	width: 49%;
+}
+
+footer .progress{
+	text-align: left;
+}
+
+footer .score{
+	text-align: right;
+}
+
+.question-screen .answer{
+	margin-bottom: 10px;
+}
+
+.hidden{ 
+	display: none;
+}
