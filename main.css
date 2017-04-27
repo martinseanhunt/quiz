@@ -35,16 +35,22 @@ button{
 footer{
 	border: 1px solid grey;
 	padding: 20px 50px;
+	font-size: 0;
 }
 
 footer .progress, footer .score{
 	/* WHY DOESN'T THIS WORK AT 50% */
 	display: inline-block;
-	width: 49%;
+	width: 50%;
+	font-size: 15px;
 }
 
 footer .progress{
 	text-align: left;
+}
+
+footer.progress:after{
+	font-size: 0;
 }
 
 footer .score{
